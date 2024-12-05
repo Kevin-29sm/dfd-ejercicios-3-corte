@@ -1,0 +1,133 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+9
+'corte 1'
+5
+1
+19
+parcial,quiz,taller
+7
+0
+1
+77
+parcial>=0 and parcial<=5 and quiz>=0 and quiz<=5 and taller>=0 and taller<=5
+4
+1
+18
+' numero denegado'
+13
+6
+1
+2
+c1
+37
+(parcial*0.6)+(taller*0.2)+(quiz*0.2)
+4
+1
+2
+c1
+4
+1
+9
+'corte 2'
+5
+1
+22
+parcialc,quizc,tallerc
+7
+0
+1
+83
+parcialc>=0 and parcialc<=5 and quizc>=0 and quizc<=5 and tallerc>=0 and tallerc<=5
+4
+1
+18
+' numero denegado'
+13
+6
+1
+2
+c2
+40
+(parcialc*0.6)+(tallerc*0.2)+(quizc*0.2)
+4
+1
+2
+c2
+4
+1
+9
+'corte 3'
+5
+1
+22
+parcialv,quizv,tallerv
+7
+0
+1
+83
+parcialv>=0 and parcialv<=5 and quizv>=0 and quizv<=5 and tallerv>=0 and tallerv<=5
+4
+1
+18
+' numero denegado'
+13
+6
+1
+2
+c3
+40
+(parcialv*0.6)+(tallerv*0.2)+(quizv*0.2)
+4
+1
+2
+c3
+13
+6
+3
+2
+f1
+6
+c1*0.3
+2
+f2
+6
+c2*0.3
+2
+f3
+6
+c3*0.4
+6
+1
+1
+e
+8
+f1+f2+f3
+4
+1
+1
+e
+7
+0
+1
+13
+e>=3 and e<=5
+4
+1
+9
+'no paso'
+13
+4
+1
+9
+'si paso'
+13
+13
+13
+1

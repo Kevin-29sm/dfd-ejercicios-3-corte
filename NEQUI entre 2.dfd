@@ -1,0 +1,351 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+1
+a
+1
+0
+1
+b
+1
+0
+6
+opcion
+1
+0
+9
+1
+10
+opcion < 5
+4
+1
+113
+'Bienvenido elige el usuario al que deseas acceder escribiendo 1 para el usuario A y escribe 2 para el usuario B'
+5
+1
+7
+usuario
+7
+0
+1
+11
+usuario = 1
+7
+0
+1
+11
+usuario = 2
+7
+0
+1
+29
+usuario != 1 and usuario != 2
+13
+4
+1
+22
+'Usuario no existente'
+13
+13
+4
+1
+150
+'Bienvenido a nuestras opciones, escirbe 1 para  recargar, escribe 2 para retirar, escribe 3 para transferir saldo y 4 para conocer el saldo de ambos'
+5
+1
+6
+opcion
+7
+0
+1
+10
+opcion = 1
+7
+0
+1
+10
+opcion = 2
+7
+0
+1
+10
+opcion = 3
+7
+0
+1
+10
+opcion = 4
+4
+1
+19
+'Opcion Incorrecta'
+13
+4
+1
+19
+'Tu saldo es: $', b
+13
+13
+4
+1
+35
+'Cuanto deseas enviar al usuario A'
+5
+1
+6
+enviar
+7
+0
+1
+11
+enviar <= b
+4
+1
+26
+'Su saldo es insuficiente'
+13
+7
+0
+1
+5
+b > 0
+4
+1
+25
+'El valor no corresponde'
+13
+6
+2
+1
+b
+10
+b - enviar
+1
+a
+10
+a + enviar
+4
+1
+71
+'Transferencia exitosa, enviaste' , enviar, 'y tu saldo actual es: ', b
+13
+13
+13
+13
+4
+1
+38
+'Digite la cantidad que desea retirar'
+5
+1
+6
+retiro
+7
+0
+1
+11
+retiro <= b
+4
+1
+26
+'Su saldo es insuficiente'
+13
+7
+0
+1
+5
+b > 0
+4
+1
+25
+'El valor no corresponde'
+13
+6
+1
+1
+b
+10
+b - retiro
+4
+1
+33
+'Retiro Existoso Su total es:', b
+13
+13
+13
+13
+4
+1
+39
+'Digite la cantidad que desea recargar'
+5
+1
+7
+recarga
+6
+1
+1
+b
+11
+b + recarga
+4
+1
+20
+'Tu total es de:', b
+13
+13
+13
+4
+1
+150
+'Bienvenido a nuestras opciones, escirbe 1 para  recargar, escribe 2 para retirar, escribe 3 para transferir saldo y 4 para conocer el saldo de ambos'
+5
+1
+6
+opcion
+7
+0
+1
+10
+opcion = 1
+7
+0
+1
+10
+opcion = 2
+7
+0
+1
+10
+opcion = 3
+7
+0
+1
+10
+opcion = 4
+4
+1
+19
+'Opcion Incorrecta'
+13
+4
+1
+19
+'Tu saldo es: $', a
+13
+13
+4
+1
+35
+'Cuanto deseas enviar al usuario B'
+5
+1
+6
+enviar
+7
+0
+1
+11
+enviar <= a
+4
+1
+26
+'Su saldo es insuficiente'
+13
+7
+0
+1
+5
+a > 0
+4
+1
+25
+'El valor no corresponde'
+13
+6
+2
+1
+a
+10
+a - enviar
+1
+b
+10
+b + enviar
+4
+1
+71
+'Transferencia exitosa, enviaste' , enviar, 'y tu saldo actual es: ', a
+13
+13
+13
+13
+4
+1
+38
+'Digite la cantidad que desea retirar'
+5
+1
+6
+retiro
+7
+0
+1
+11
+retiro <= a
+4
+1
+26
+'Su saldo es insuficiente'
+13
+7
+0
+1
+5
+a > 0
+4
+1
+25
+'El valor no corresponde'
+13
+6
+1
+1
+a
+10
+a - retiro
+4
+1
+33
+'Retiro Existoso Su total es:', a
+13
+13
+13
+13
+4
+1
+39
+'Digite la cantidad que desea recargar'
+5
+1
+7
+recarga
+6
+1
+1
+a
+11
+a + recarga
+4
+1
+20
+'Tu total es de:', a
+13
+13
+11
+1
